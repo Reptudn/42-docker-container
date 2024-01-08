@@ -4,35 +4,36 @@
 	"name": "42 Dev Container",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+	"dockerFile": "Dockerfile",
 	"customizations": {
 		"vscode": {
+			"settings": { 
+				"files.autoSave": "onFocusChange",
+				"editor.renderWhitespace": "all",
+				"editor.insertSpaces": false,
+				"debug.onTaskErrors": "debugAnyway",
+				"42header.email": "intra@student.42.fr",
+				"42header.username": "intra"
+			},
 			"extensions": [
 				"ms-vscode.cpptools-themes",
 				"ms-vscode-remote.remote-containers",
-				"GitHub.github-vscode-theme",
 				"mitaki28.vscode-clang",
 				"ms-vscode.cpptools",
 				"ms-vscode.cpptools-extension-pack",
-				"franneck94.c-cpp-runner",
+				"kube.42header",
 				"twxs.cmake",
 				"ms-vscode.cmake-tools",
 				"vadimcn.vscode-lldb",
 				"ms-vscode.makefile-tools",
-				"rust-lang.rust-analyzer",
-				"dustypomerleau.rust-syntax",
-				"JScearcy.rust-doc-viewer",
-				"hdevalke.rust-test-lens",
-				"streetsidesoftware.code-spell-checker",
 				"GitHub.copilot",
-				"ritwickdey.LiveServer",
 				"ms-azuretools.vscode-docker",
 				"ms-vscode-remote.remote-containers",
 				"DoKca.42-ft-count-line",
 				"MariusvanWijk-JoppeKoers.codam-norminette-3"
 			]
 		}
-	}
-
+	},
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
@@ -40,7 +41,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
+	"postCreateCommand": "echo 'Container created. Happy coding!'"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
