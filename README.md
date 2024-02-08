@@ -19,3 +19,6 @@
   - 42 count line
   - 42 header
   - ...
+ 
+# Reminder
+<bold>DONT FORGET TO CHANGE IT TO YOUR INTRA NAME IN THE devcontainer.json FOR THE HEADER EXTENSION!</bold>
