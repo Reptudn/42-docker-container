@@ -23,6 +23,9 @@ RUN apt install curl -y
 # readline lib
 RUN apt-get install -y libreadline-dev
 
+# install clangd
+RUN apt-get install clangd
+
 #install paco
 RUN bash -c "$(curl -fsSL https://raw.github.com/xicodomingues/francinette/master/bin/install.sh)"
 
