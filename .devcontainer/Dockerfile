@@ -22,6 +22,7 @@ RUN apt install curl -y
 
 # install nodejs
 RUN apt install nodejs -y
+RUN apt install npm -y
 
 # readline lib
 RUN apt-get install -y libreadline-dev
