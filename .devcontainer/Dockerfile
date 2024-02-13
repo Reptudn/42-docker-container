@@ -20,6 +20,9 @@ RUN apt install zsh -y
 #install curl
 RUN apt install curl -y
 
+# install nodejs
+RUN apt install nodejs -y
+
 # readline lib
 RUN apt-get install -y libreadline-dev
 
