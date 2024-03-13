@@ -28,7 +28,7 @@ RUN apt install npm -y
 RUN apt-get install -y libreadline-dev
 
 # istall glfw for MLX42
-RUN apt-get install libglfw3-dev
+RUN apt-get install libglfw3-dev -y
 
 #install paco
 RUN bash -c "$(curl -fsSL https://raw.github.com/xicodomingues/francinette/master/bin/install.sh)"
