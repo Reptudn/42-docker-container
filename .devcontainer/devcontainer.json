@@ -35,7 +35,8 @@
 				"ms-azuretools.vscode-docker",
 				"ms-vscode-remote.remote-containers",
 				"DoKca.42-ft-count-line",
-				"MariusvanWijk-JoppeKoers.codam-norminette-3"
+				"MariusvanWijk-JoppeKoers.codam-norminette-3",
+				"Gruntfuggly.todo-tree"
 			]
 		}
 	},
