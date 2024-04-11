@@ -3,8 +3,12 @@
 {
 	"name": "42 Dev Container",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+	// "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 	"dockerFile": "Dockerfile",
+	// "mounts": [
+    //     "source=${localWorkspaceFolder}/.ssh,target=/root/.ssh,type=bind,consistency=cached",
+    //     "source=${localWorkspaceFolder}/.gitconfig,target=/root/.gitconfig,type=bind,consistency=cached"
+    // ],
 	"customizations": {
 		"vscode": {
 			"settings": { 
@@ -12,8 +16,8 @@
 				"editor.renderWhitespace": "all",
 				"editor.insertSpaces": false,
 				"debug.onTaskErrors": "debugAnyway",
-				"42header.email": "intra@student.42.fr",
-				"42header.username": "intra"
+				"42header.email": "jkauker@student.42heilbronn.de",
+				"42header.username": "jkauker"
 			},
 			"extensions": [
 				"ms-vscode.cpptools-themes",
@@ -21,12 +25,7 @@
 				"mitaki28.vscode-clang",
 				"ms-vscode.cpptools",
 				"ms-vscode.cpptools-extension-pack",
-				"usernamehw.errorlens",
-				"keyhr.42-c-format",
-				"llvm-vs-code-extensions.vscode-clangd",
-				"christian-kohler.path-intellisense",
 				"kube.42header",
-				"tomoki1207.pdf",
 				"twxs.cmake",
 				"ms-vscode.cmake-tools",
 				"vadimcn.vscode-lldb",
@@ -36,7 +35,10 @@
 				"ms-vscode-remote.remote-containers",
 				"DoKca.42-ft-count-line",
 				"MariusvanWijk-JoppeKoers.codam-norminette-3",
-				"Gruntfuggly.todo-tree"
+				"Gruntfuggly.todo-tree",
+				"keyhr.42-c-format",
+				"vsls-contrib.codetour",
+				"mhutchie.git-graph"
 			]
 		}
 	},
