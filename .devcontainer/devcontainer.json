@@ -38,7 +38,8 @@
 				"Gruntfuggly.todo-tree",
 				"keyhr.42-c-format",
 				"vsls-contrib.codetour",
-				"mhutchie.git-graph"
+				"mhutchie.git-graph",
+				"oderwat.indent-rainbow"
 			]
 		}
 	},
