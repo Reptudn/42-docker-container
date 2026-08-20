@@ -1,3 +1,5 @@
+# DEPRECATED DUE TO SWITCH TO LINUX
+
 ## How to?
 1. Install the devcontainer extension in vscode (ms-vscode-remote.remote-containers)
 2. Start the docker deamon / docker desktop
